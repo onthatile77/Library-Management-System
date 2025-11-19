@@ -1,0 +1,136 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 95%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Header */
+header h1 {
+    text-align: center;
+    color: #1a1a7a;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    background-color: #1a1a7a;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+    .nav-link:hover {
+        background-color: #0000cc;
+    }
+
+/* Form Groups */
+.form-group {
+    margin-bottom: 30px;
+}
+
+    .form-group h2 {
+        color: #333;
+        margin-bottom: 15px;
+    }
+
+.input-field {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.btn-action, .btn-delete {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-action {
+    background-color: #1a1a7a;
+    color: #fff;
+}
+
+    .btn-action:hover {
+        background-color: #0000cc;
+    }
+
+.btn-delete {
+    background-color: #cc0000;
+    color: #fff;
+}
+
+    .btn-delete:hover {
+        background-color: #990000;
+    }
+
+/* GridView styling */
+.users-table, #GridView2, #GridView3 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+    .users-table th, #GridView2 th, #GridView3 th {
+        background-color: #1a1a7a;
+        color: #fff;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .users-table td, #GridView2 td, #GridView3 td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .users-table tr:nth-child(even), #GridView2 tr:nth-child(even), #GridView3 tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .users-table tr:hover, #GridView2 tr:hover, #GridView3 tr:hover {
+        background-color: #e6f0ff;
+    }
+
+/* Radio buttons */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Sort dropdown */
+.sort-dropdown {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
