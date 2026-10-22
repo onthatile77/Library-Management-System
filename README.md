@@ -11,29 +11,16 @@ Libraries need to know what books they hold, who the members are and which books
 - Add, edit, remove and search books
 - Manage library members
 - Borrow and return books, with loan tracking
-- [Overdue tracking / fines, if included]
-- [User roles or login, if included]
-
-> Edit this list to match what your system actually does.
 
 ## Tech stack
 
 | Area | Tools |
 | --- | --- |
 | Language | [C#] |
-| Framework | [.NET version, and the UI type: console / Windows Forms / Web Forms / web app] |
-| Database | [SQL Server / SQLite / PostgreSQL] |
+| Framework | [.NET version, and the UI type: Web Forms] |
+| Database | [SSQLite]|
 | Tools | Git, GitHub, [Visual Studio / VS Code] |
 
-## Project structure
-
-```text
-[Replace with your real folders, for example:]
-Models/        Book, Member, Loan classes
-Data/          Database access and queries
-Services/      Business logic
-UI/            Forms or pages
-```
 
 ## Getting started
 
