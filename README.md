@@ -18,7 +18,7 @@ Libraries need to know what books they hold, who the members are and which books
 | --- | --- |
 | Language | [C#] |
 | Framework | [.NET version, and the UI type: Web Forms] |
-| Database | [SSQLite]|
+| Database | [MySQL]|
 | Tools | Git, GitHub, [Visual Studio / VS Code] |
 
 
@@ -40,12 +40,14 @@ dotnet restore
 dotnet run
 ```
 
-## Database
-
-[Describe your main tables, for example Books, Members and Loans, and how they relate. Add a diagram or the SQL setup script if you have one.]
 
 ## What I learned
 
-- Modelling a real-world process (books, members, loans) as classes and database tables
-- Separating data access, business logic and the user interface
+- Building a solid 2 way communication between server and frontend
+- Using legacy Framework to see core fundamentals of dotnet in action
+
+## Yet to cover
+
+- OOP with dotnet
+- APIs
 
